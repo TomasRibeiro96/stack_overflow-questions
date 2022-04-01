@@ -1,0 +1,698 @@
+2022-04-01 12:16:40,674 ERROR o.a.j.u.JMeterUtils: Could not find resources for 'pt_PT'
+2022-04-01 12:16:40,689 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2022-04-01 12:16:40,689 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2022-04-01 12:16:40,705 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-04-01 12:16:40,705 INFO o.a.j.JMeter: Version 5.4.1
+2022-04-01 12:16:40,705 INFO o.a.j.JMeter: java.version=1.8.0_321
+2022-04-01 12:16:40,705 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-04-01 12:16:40,705 INFO o.a.j.JMeter: os.name=Windows 10
+2022-04-01 12:16:40,705 INFO o.a.j.JMeter: os.arch=amd64
+2022-04-01 12:16:40,705 INFO o.a.j.JMeter: os.version=10.0
+2022-04-01 12:16:40,705 INFO o.a.j.JMeter: file.encoding=Cp1252
+2022-04-01 12:16:40,705 INFO o.a.j.JMeter: java.awt.headless=null
+2022-04-01 12:16:40,705 INFO o.a.j.JMeter: Max memory     =7600078848
+2022-04-01 12:16:40,705 INFO o.a.j.JMeter: Available Processors =4
+2022-04-01 12:16:40,721 INFO o.a.j.JMeter: Default Locale=português (Portugal)
+2022-04-01 12:16:40,721 INFO o.a.j.JMeter: JMeter  Locale=português (Portugal)
+2022-04-01 12:16:40,721 INFO o.a.j.JMeter: JMeterHome=C:\Users\XXX\apache-jmeter-5.4.1
+2022-04-01 12:16:40,721 INFO o.a.j.JMeter: user.dir  =C:\Users\XXX\apache-jmeter-5.4.1\bin
+2022-04-01 12:16:40,721 INFO o.a.j.JMeter: PWD       =C:\Users\XXX\apache-jmeter-5.4.1\bin
+2022-04-01 12:16:40,721 INFO o.a.j.JMeter: IP: XXX Name: XXX FullName: XXX
+2022-04-01 12:16:40,836 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2022-04-01 12:16:41,767 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-04-01 12:16:53,470 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-04-01 12:16:53,485 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-04-01 12:16:53,485 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-04-01 12:16:53,501 INFO o.a.j.s.SaveService: Loading file: C:\Users\XXX\AppData\Local\Temp\Recording4187690212874023899.output
+2022-04-01 12:16:53,532 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: true Prefix: COOKIE_
+2022-04-01 12:16:53,532 DEBUG o.a.j.p.h.c.CookieManager: Clear all cookies from store
+2022-04-01 12:16:54,086 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2022-04-01 12:16:54,094 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:16:54,126 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-01 12:16:54,135 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-01 12:16:54,135 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-01 12:16:54,135 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-01 12:16:54,135 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-04-01 12:16:54,135 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-04-01 12:16:54,362 DEBUG o.a.j.p.h.c.CookieManager: Clear all cookies from store
+2022-04-01 12:16:54,425 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-04-01 12:16:54,425 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-04-01 12:16:54,425 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-04-01 12:16:54,425 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-04-01 12:16:54,942 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Creating ProxyControlGui
+2022-04-01 12:16:55,056 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Configuring gui with org.apache.jmeter.protocol.http.proxy.ProxyControl@63a5159
+2022-04-01 12:16:55,067 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Reinitializing target combo
+2022-04-01 12:16:55,067 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Selecting item Use Recording Controller for model org.apache.jmeter.protocol.http.proxy.ProxyControl@63a5159 in org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui[HTTP(S) Test Script Recorder,0,0,0x0,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@1f5d87d4,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-04-01 12:16:55,067 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Reinitialization complete
+2022-04-01 12:16:55,827 DEBUG o.a.j.p.h.c.CookieManager: Clear all cookies from store
+2022-04-01 12:16:57,685 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Configuring gui with org.apache.jmeter.protocol.http.proxy.ProxyControl@63a5159
+2022-04-01 12:16:57,685 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Reinitializing target combo
+2022-04-01 12:16:57,685 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Selecting item Use Recording Controller for model org.apache.jmeter.protocol.http.proxy.ProxyControl@63a5159 in org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui[HTTP(S) Test Script Recorder,0,0,0x0,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@1f5d87d4,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-04-01 12:16:57,685 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Reinitialization complete
+2022-04-01 12:16:57,685 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Configuring gui with org.apache.jmeter.protocol.http.proxy.ProxyControl@63a5159
+2022-04-01 12:16:57,685 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Reinitializing target combo
+2022-04-01 12:16:57,685 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Selecting item Use Recording Controller for model org.apache.jmeter.protocol.http.proxy.ProxyControl@63a5159 in org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui[HTTP(S) Test Script Recorder,0,0,0x0,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@1f5d87d4,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-04-01 12:16:57,685 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Reinitialization complete
+2022-04-01 12:16:57,732 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Configuring gui with org.apache.jmeter.protocol.http.proxy.ProxyControl@63a5159
+2022-04-01 12:16:57,732 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Reinitializing target combo
+2022-04-01 12:16:57,732 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Selecting item Use Recording Controller for model org.apache.jmeter.protocol.http.proxy.ProxyControl@63a5159 in org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui[HTTP(S) Test Script Recorder,0,0,0x0,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@1f5d87d4,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-04-01 12:16:57,732 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Reinitialization complete
+2022-04-01 12:17:01,437 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-04-01 12:17:01,437 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.CompoundVariable: Function count: 49
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 8888
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: 8888
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.CollectionProperty: [windowsupdate\.microsoft\.com.*, (?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2), .*msg\.yahoo\.com.*, www\.download\.windowsupdate\.com.*, toolbarqueries\.google\..*, http?://self-repair\.mozilla\.org.*, tiles.*\.mozilla\.com.*, .*detectportal\.firefox\.com.*, us\.update\.toolbar\.yahoo\.com.*, .*\.google\.com.*/safebrowsing/.*, api\.bing\.com.*, toolbar\.google\.com.*, .*yimg\.com.*, toolbar\.msn\.com.*, (?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2)[\?;].*, toolbar\.avg\.com/.*, www\.google-analytics\.com.*, pgq\.yahoo\.com.*, safebrowsing.*\.google\.com.*, sqm\.microsoft\.com.*, g\.msn.*, clients.*\.google.*, .*toolbar\.yahoo\.com.*, geo\.yahoo\.com.*]
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: windowsupdate\.microsoft\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: windowsupdate\.microsoft\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: (?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2)
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: (?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2)
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: .*msg\.yahoo\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: .*msg\.yahoo\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: www\.download\.windowsupdate\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: www\.download\.windowsupdate\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: toolbarqueries\.google\..*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: toolbarqueries\.google\..*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: http?://self-repair\.mozilla\.org.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: http?://self-repair\.mozilla\.org.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: tiles.*\.mozilla\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: tiles.*\.mozilla\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: .*detectportal\.firefox\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: .*detectportal\.firefox\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: us\.update\.toolbar\.yahoo\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: us\.update\.toolbar\.yahoo\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: .*\.google\.com.*/safebrowsing/.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: .*\.google\.com.*/safebrowsing/.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: api\.bing\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: api\.bing\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: toolbar\.google\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: toolbar\.google\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: .*yimg\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: .*yimg\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: toolbar\.msn\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: toolbar\.msn\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: (?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2)[\?;].*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: (?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2)[\?;].*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: toolbar\.avg\.com/.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: toolbar\.avg\.com/.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: www\.google-analytics\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: www\.google-analytics\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: pgq\.yahoo\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: pgq\.yahoo\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: safebrowsing.*\.google\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: safebrowsing.*\.google\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: sqm\.microsoft\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: sqm\.microsoft\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: g\.msn.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: g\.msn.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: clients.*\.google.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: clients.*\.google.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: .*toolbar\.yahoo\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: .*toolbar\.yahoo\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: geo\.yahoo\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: geo\.yahoo\.com.*
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: [windowsupdate\.microsoft\.com.*, (?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2), .*msg\.yahoo\.com.*, www\.download\.windowsupdate\.com.*, toolbarqueries\.google\..*, http?://self-repair\.mozilla\.org.*, tiles.*\.mozilla\.com.*, .*detectportal\.firefox\.com.*, us\.update\.toolbar\.yahoo\.com.*, .*\.google\.com.*/safebrowsing/.*, api\.bing\.com.*, toolbar\.google\.com.*, .*yimg\.com.*, toolbar\.msn\.com.*, (?i).*\.(bmp|css|js|gif|ico|jpe?g|png|swf|eot|otf|ttf|mp4|woff|woff2)[\?;].*, toolbar\.avg\.com/.*, www\.google-analytics\.com.*, pgq\.yahoo\.com.*, safebrowsing.*\.google\.com.*, sqm\.microsoft\.com.*, g\.msn.*, clients.*\.google.*, .*toolbar\.yahoo\.com.*, geo\.yahoo\.com.*]
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.CollectionProperty: []
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: []
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Won't replace true
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: org.apache.jmeter.protocol.http.proxy.ProxyControl
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: HTTP(S) Test Script Recorder
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: HTTP(S) Test Script Recorder
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Won't replace false
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.IntegerProperty: 4
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: 4
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Won't replace false
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: 
+2022-04-01 12:17:01,837 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Won't replace false
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Won't replace true
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Won't replace true
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Won't replace false
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Won't replace true
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: 
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: 
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: false
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Won't replace false
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: 
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.IntegerProperty: 1
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: 1
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: 
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: 
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: 
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.BooleanProperty: true
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Won't replace true
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: About to replace in property of type: class org.apache.jmeter.testelement.property.StringProperty: UTF-8
+2022-04-01 12:17:01,853 DEBUG o.a.j.e.u.ValueReplacer: Replacement result: UTF-8
+2022-04-01 12:17:01,853 DEBUG o.a.j.p.h.p.ProxyControl: Opened Keystore file: C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:17:01,893 DEBUG o.a.j.p.h.p.ProxyControl: Loaded Keystore file: C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:17:01,893 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2022-04-01 12:17:01,893 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2022-04-01 12:17:01,901 INFO o.a.j.s.FileServer: Default base='C:\Users\XXX\apache-jmeter-5.4.1\bin'
+2022-04-01 12:17:01,913 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2022-04-01 12:17:01,921 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2022-04-01 12:17:01,962 DEBUG o.a.j.p.h.p.SamplerCreatorFactory: Loading class: org.apache.jmeter.protocol.http.proxy.DefaultSamplerCreator
+2022-04-01 12:17:01,962 DEBUG o.a.j.p.h.p.SamplerCreatorFactory: Instantiating: org.apache.jmeter.protocol.http.proxy.DefaultSamplerCreator
+2022-04-01 12:17:01,962 INFO o.a.j.p.h.p.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host
+2022-04-01 12:17:01,962 DEBUG o.a.j.p.h.p.Proxy: [61992]  ====================================================================
+2022-04-01 12:17:01,962 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:01,962 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: outlook.office365.com:443, version: HTTP/1.1
+2022-04-01 12:17:01,962 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:01,962 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: outlook.office365.com:443<CRLF>'
+2022-04-01 12:17:01,962 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:01,962 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>Host: outlook.office365.com:443<CRLF><CRLF>'
+2022-04-01 12:17:01,962 DEBUG o.a.j.p.h.p.Proxy: [61992]  Initial request: CONNECT outlook.office365.com:443 HTTP/1.1
+Host: outlook.office365.com:443
+
+
+2022-04-01 12:17:01,978 DEBUG o.a.j.p.h.p.Proxy: [61992]  Method CONNECT => SSL
+2022-04-01 12:17:01,978 DEBUG o.a.j.p.h.p.Proxy: [61992]  Start to negotiate SSL connection, host: outlook.office365.com
+2022-04-01 12:17:01,978 INFO o.a.j.p.h.p.ProxyControl: [61992]  Creating entry outlook.office365.com in C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:17:02,425 DEBUG o.a.j.p.h.p.Proxy: [61993]  ====================================================================
+2022-04-01 12:17:02,432 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:02,432 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: outlook.office365.com:443, version: HTTP/1.1
+2022-04-01 12:17:02,432 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:02,432 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: outlook.office365.com:443<CRLF>'
+2022-04-01 12:17:02,432 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:02,432 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>Host: outlook.office365.com:443<CRLF><CRLF>'
+2022-04-01 12:17:02,432 DEBUG o.a.j.p.h.p.Proxy: [61993]  Initial request: CONNECT outlook.office365.com:443 HTTP/1.1
+Host: outlook.office365.com:443
+
+
+2022-04-01 12:17:02,432 DEBUG o.a.j.p.h.p.Proxy: [61993]  Method CONNECT => SSL
+2022-04-01 12:17:02,432 DEBUG o.a.j.p.h.p.Proxy: [61993]  Start to negotiate SSL connection, host: outlook.office365.com
+2022-04-01 12:17:03,266 DEBUG o.a.j.p.h.p.Proxy: [61994]  ====================================================================
+2022-04-01 12:17:03,266 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT eu-v20.events.data.microsoft.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:03,266 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: eu-v20.events.data.microsoft.com:443, version: HTTP/1.1
+2022-04-01 12:17:03,266 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT eu-v20.events.data.microsoft.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:03,266 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: eu-v20.events.data.microsoft.com:443<CRLF>'
+2022-04-01 12:17:03,266 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:03,266 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT eu-v20.events.data.microsoft.com:443 HTTP/1.1<CRLF>Host: eu-v20.events.data.microsoft.com:443<CRLF><CRLF>'
+2022-04-01 12:17:03,266 DEBUG o.a.j.p.h.p.Proxy: [61994]  Initial request: CONNECT eu-v20.events.data.microsoft.com:443 HTTP/1.1
+Host: eu-v20.events.data.microsoft.com:443
+
+
+2022-04-01 12:17:03,266 DEBUG o.a.j.p.h.p.Proxy: [61994]  Method CONNECT => SSL
+2022-04-01 12:17:03,266 DEBUG o.a.j.p.h.p.Proxy: [61994]  Start to negotiate SSL connection, host: eu-v20.events.data.microsoft.com
+2022-04-01 12:17:04,341 INFO o.a.j.p.h.p.Proxy: [61994]  KeyStore for SSL loaded OK and put host 'eu-v20.events.data.microsoft.com' in map with key (eu-v20.events.data.microsoft.com)
+2022-04-01 12:17:04,724 DEBUG o.a.j.p.h.p.Proxy: [61994]  SSL transaction ok with cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+2022-04-01 12:17:04,761 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: ''
+2022-04-01 12:17:04,761 DEBUG o.a.j.p.h.p.Proxy: [61994]  Reparse: 
+2022-04-01 12:17:04,761 WARN o.a.j.p.h.p.Proxy: [61994]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for eu-v20.events.data.microsoft.com:443
+2022-04-01 12:17:05,165 DEBUG o.a.j.p.h.p.Proxy: [61997]  ====================================================================
+2022-04-01 12:17:05,173 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT pagead2.googlesyndication.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:05,173 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: pagead2.googlesyndication.com:443, version: HTTP/1.1
+2022-04-01 12:17:05,173 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT pagead2.googlesyndication.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:05,173 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: pagead2.googlesyndication.com:443<CRLF>'
+2022-04-01 12:17:05,173 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Proxy-Connection: keep-alive<CRLF>'
+2022-04-01 12:17:05,173 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36<CRLF>'
+2022-04-01 12:17:05,173 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:05,173 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT pagead2.googlesyndication.com:443 HTTP/1.1<CRLF>Host: pagead2.googlesyndication.com:443<CRLF>Proxy-Connection: keep-alive<CRLF>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36<CRLF><CRLF>'
+2022-04-01 12:17:05,173 DEBUG o.a.j.p.h.p.Proxy: [61997]  Initial request: CONNECT pagead2.googlesyndication.com:443 HTTP/1.1
+Host: pagead2.googlesyndication.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36
+
+
+2022-04-01 12:17:05,181 DEBUG o.a.j.p.h.p.Proxy: [61997]  Method CONNECT => SSL
+2022-04-01 12:17:05,181 DEBUG o.a.j.p.h.p.Proxy: [61997]  Start to negotiate SSL connection, host: pagead2.googlesyndication.com
+2022-04-01 12:17:05,467 DEBUG o.a.j.p.h.p.Proxy: [61999]  ====================================================================
+2022-04-01 12:17:05,467 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT pagead2.googlesyndication.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:05,467 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: pagead2.googlesyndication.com:443, version: HTTP/1.1
+2022-04-01 12:17:05,467 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT pagead2.googlesyndication.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:05,467 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: pagead2.googlesyndication.com:443<CRLF>'
+2022-04-01 12:17:05,467 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Proxy-Connection: keep-alive<CRLF>'
+2022-04-01 12:17:05,467 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36<CRLF>'
+2022-04-01 12:17:05,467 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:05,467 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT pagead2.googlesyndication.com:443 HTTP/1.1<CRLF>Host: pagead2.googlesyndication.com:443<CRLF>Proxy-Connection: keep-alive<CRLF>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36<CRLF><CRLF>'
+2022-04-01 12:17:05,467 DEBUG o.a.j.p.h.p.Proxy: [61999]  Initial request: CONNECT pagead2.googlesyndication.com:443 HTTP/1.1
+Host: pagead2.googlesyndication.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36
+
+
+2022-04-01 12:17:05,467 DEBUG o.a.j.p.h.p.Proxy: [61999]  Method CONNECT => SSL
+2022-04-01 12:17:05,467 DEBUG o.a.j.p.h.p.Proxy: [61999]  Start to negotiate SSL connection, host: pagead2.googlesyndication.com
+2022-04-01 12:17:05,491 DEBUG o.a.j.p.h.p.Proxy: [62000]  ====================================================================
+2022-04-01 12:17:05,491 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT pagead2.googlesyndication.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:05,491 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: pagead2.googlesyndication.com:443, version: HTTP/1.1
+2022-04-01 12:17:05,491 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT pagead2.googlesyndication.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:05,491 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: pagead2.googlesyndication.com:443<CRLF>'
+2022-04-01 12:17:05,499 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Proxy-Connection: keep-alive<CRLF>'
+2022-04-01 12:17:05,499 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36<CRLF>'
+2022-04-01 12:17:05,499 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:05,499 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT pagead2.googlesyndication.com:443 HTTP/1.1<CRLF>Host: pagead2.googlesyndication.com:443<CRLF>Proxy-Connection: keep-alive<CRLF>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36<CRLF><CRLF>'
+2022-04-01 12:17:05,499 DEBUG o.a.j.p.h.p.Proxy: [62000]  Initial request: CONNECT pagead2.googlesyndication.com:443 HTTP/1.1
+Host: pagead2.googlesyndication.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36
+
+
+2022-04-01 12:17:05,499 DEBUG o.a.j.p.h.p.Proxy: [62000]  Method CONNECT => SSL
+2022-04-01 12:17:05,499 DEBUG o.a.j.p.h.p.Proxy: [62000]  Start to negotiate SSL connection, host: pagead2.googlesyndication.com
+2022-04-01 12:17:07,445 DEBUG o.a.j.p.h.p.Proxy: [62004]  ====================================================================
+2022-04-01 12:17:07,445 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT www.ecosia.org:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:07,445 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: www.ecosia.org:443, version: HTTP/1.1
+2022-04-01 12:17:07,445 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT www.ecosia.org:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:07,445 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: www.ecosia.org:443<CRLF>'
+2022-04-01 12:17:07,445 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Proxy-Connection: keep-alive<CRLF>'
+2022-04-01 12:17:07,445 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36<CRLF>'
+2022-04-01 12:17:07,445 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:07,445 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT www.ecosia.org:443 HTTP/1.1<CRLF>Host: www.ecosia.org:443<CRLF>Proxy-Connection: keep-alive<CRLF>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36<CRLF><CRLF>'
+2022-04-01 12:17:07,445 DEBUG o.a.j.p.h.p.Proxy: [62004]  Initial request: CONNECT www.ecosia.org:443 HTTP/1.1
+Host: www.ecosia.org:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36
+
+
+2022-04-01 12:17:07,445 DEBUG o.a.j.p.h.p.Proxy: [62004]  Method CONNECT => SSL
+2022-04-01 12:17:07,453 DEBUG o.a.j.p.h.p.Proxy: [62004]  Start to negotiate SSL connection, host: www.ecosia.org
+2022-04-01 12:17:07,469 INFO o.a.j.p.h.p.Proxy: [62004]  KeyStore for SSL loaded OK and put host 'www.ecosia.org' in map with key (www.ecosia.org)
+2022-04-01 12:17:07,581 DEBUG o.a.j.p.h.p.Proxy: [62004]  SSL transaction ok with cipher: SSL_NULL_WITH_NULL_NULL
+2022-04-01 12:17:07,581 WARN o.a.j.p.h.p.Proxy: [62004]  Problem with SSL certificate for url  for 'www.ecosia.org'? Ensure browser is set to accept the JMeter proxy cert: Socket is closed
+2022-04-01 12:17:07,597 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.Proxy: [62005]  ====================================================================
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT www.ecosia.org:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: www.ecosia.org:443, version: HTTP/1.1
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT www.ecosia.org:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: www.ecosia.org:443<CRLF>'
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Proxy-Connection: keep-alive<CRLF>'
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36<CRLF>'
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT www.ecosia.org:443 HTTP/1.1<CRLF>Host: www.ecosia.org:443<CRLF>Proxy-Connection: keep-alive<CRLF>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36<CRLF><CRLF>'
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.Proxy: [62005]  Initial request: CONNECT www.ecosia.org:443 HTTP/1.1
+Host: www.ecosia.org:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36
+
+
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.Proxy: [62005]  Method CONNECT => SSL
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.Proxy: [62005]  Start to negotiate SSL connection, host: www.ecosia.org
+2022-04-01 12:17:07,741 DEBUG o.a.j.p.h.p.Proxy: [62005]  Good, already in map, host=www.ecosia.org using alias www.ecosia.org
+2022-04-01 12:17:07,837 DEBUG o.a.j.p.h.p.Proxy: [62006]  ====================================================================
+2022-04-01 12:17:07,853 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT eu-v20.events.data.microsoft.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:07,853 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: eu-v20.events.data.microsoft.com:443, version: HTTP/1.1
+2022-04-01 12:17:07,853 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT eu-v20.events.data.microsoft.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:07,853 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: eu-v20.events.data.microsoft.com:443<CRLF>'
+2022-04-01 12:17:07,853 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:07,853 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT eu-v20.events.data.microsoft.com:443 HTTP/1.1<CRLF>Host: eu-v20.events.data.microsoft.com:443<CRLF><CRLF>'
+2022-04-01 12:17:07,853 DEBUG o.a.j.p.h.p.Proxy: [62006]  Initial request: CONNECT eu-v20.events.data.microsoft.com:443 HTTP/1.1
+Host: eu-v20.events.data.microsoft.com:443
+
+
+2022-04-01 12:17:07,853 DEBUG o.a.j.p.h.p.Proxy: [62006]  Method CONNECT => SSL
+2022-04-01 12:17:07,853 DEBUG o.a.j.p.h.p.Proxy: [62006]  Start to negotiate SSL connection, host: eu-v20.events.data.microsoft.com
+2022-04-01 12:17:07,853 DEBUG o.a.j.p.h.p.Proxy: [62006]  Good, already in map, host=eu-v20.events.data.microsoft.com using alias eu-v20.events.data.microsoft.com
+2022-04-01 12:17:07,877 DEBUG o.a.j.p.h.p.Proxy: [62005]  SSL transaction ok with cipher: SSL_NULL_WITH_NULL_NULL
+2022-04-01 12:17:07,877 WARN o.a.j.p.h.p.Proxy: [62005]  Problem with SSL certificate for url  for 'www.ecosia.org'? Ensure browser is set to accept the JMeter proxy cert: Socket is closed
+2022-04-01 12:17:07,885 DEBUG o.a.j.p.h.p.Proxy: [62006]  SSL transaction ok with cipher: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+2022-04-01 12:17:07,893 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: ''
+2022-04-01 12:17:07,893 DEBUG o.a.j.p.h.p.Proxy: [62006]  Reparse: 
+2022-04-01 12:17:07,893 WARN o.a.j.p.h.p.Proxy: [62006]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for eu-v20.events.data.microsoft.com:443
+2022-04-01 12:17:08,018 DEBUG o.a.j.p.h.p.Proxy: [62007]  ====================================================================
+2022-04-01 12:17:08,018 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:08,018 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: outlook.office365.com:443, version: HTTP/1.1
+2022-04-01 12:17:08,018 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:08,018 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: outlook.office365.com:443<CRLF>'
+2022-04-01 12:17:08,018 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:08,018 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>Host: outlook.office365.com:443<CRLF><CRLF>'
+2022-04-01 12:17:08,018 DEBUG o.a.j.p.h.p.Proxy: [62007]  Initial request: CONNECT outlook.office365.com:443 HTTP/1.1
+Host: outlook.office365.com:443
+
+
+2022-04-01 12:17:08,018 DEBUG o.a.j.p.h.p.Proxy: [62007]  Method CONNECT => SSL
+2022-04-01 12:17:08,018 DEBUG o.a.j.p.h.p.Proxy: [62007]  Start to negotiate SSL connection, host: outlook.office365.com
+2022-04-01 12:17:08,018 DEBUG o.a.j.p.h.p.Proxy: [62008]  ====================================================================
+2022-04-01 12:17:08,026 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:08,026 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: outlook.office365.com:443, version: HTTP/1.1
+2022-04-01 12:17:08,026 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:08,026 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: outlook.office365.com:443<CRLF>'
+2022-04-01 12:17:08,026 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:08,026 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>Host: outlook.office365.com:443<CRLF><CRLF>'
+2022-04-01 12:17:08,026 DEBUG o.a.j.p.h.p.Proxy: [62008]  Initial request: CONNECT outlook.office365.com:443 HTTP/1.1
+Host: outlook.office365.com:443
+
+
+2022-04-01 12:17:08,026 DEBUG o.a.j.p.h.p.Proxy: [62008]  Method CONNECT => SSL
+2022-04-01 12:17:08,026 DEBUG o.a.j.p.h.p.Proxy: [62008]  Start to negotiate SSL connection, host: outlook.office365.com
+2022-04-01 12:17:09,039 INFO o.a.j.p.h.p.ProxyControl: [62008]  Creating entry outlook.office365.com in C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:17:09,039 ERROR o.a.j.p.h.p.Proxy: [61992]  Problem with keystore
+java.io.IOException: Command failed, code: 1
+Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+keytool error: java.security.cert.CertificateException: No certificate data found
+
+	at org.apache.jorphan.exec.KeyToolUtils.runNativeCommand(KeyToolUtils.java:372) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.keytool(KeyToolUtils.java:439) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:305) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:281) ~[jorphan.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.updateKeyStore(ProxyControl.java:1611) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.getSSLSocketFactory(Proxy.java:344) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:449) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:09,039 WARN o.a.j.p.h.p.Proxy: [61992]  Unable to negotiate SSL transaction, no keystore?
+2022-04-01 12:17:09,039 ERROR o.a.j.p.h.p.Proxy: [61992]  Exception when processing sample
+java.io.IOException: Unable to negotiate SSL transaction, no keystore?
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:466) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:09,039 WARN o.a.j.p.h.p.Proxy: [61992]  Exception while writing error
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_321]
+	at java.io.DataOutputStream.writeBytes(Unknown Source) ~[?:1.8.0_321]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:580) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:269) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:09,055 DEBUG o.a.j.p.h.p.Proxy: [62011]  ====================================================================
+2022-04-01 12:17:09,055 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:09,055 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: outlook.office365.com:443, version: HTTP/1.1
+2022-04-01 12:17:09,055 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:09,055 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: outlook.office365.com:443<CRLF>'
+2022-04-01 12:17:09,055 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:09,055 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>Host: outlook.office365.com:443<CRLF><CRLF>'
+2022-04-01 12:17:09,055 DEBUG o.a.j.p.h.p.Proxy: [62011]  Initial request: CONNECT outlook.office365.com:443 HTTP/1.1
+Host: outlook.office365.com:443
+
+
+2022-04-01 12:17:09,055 DEBUG o.a.j.p.h.p.Proxy: [62011]  Method CONNECT => SSL
+2022-04-01 12:17:09,055 DEBUG o.a.j.p.h.p.Proxy: [62011]  Start to negotiate SSL connection, host: outlook.office365.com
+2022-04-01 12:17:09,106 DEBUG o.a.j.p.h.p.Proxy: [62013]  ====================================================================
+2022-04-01 12:17:09,106 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT uksouth-prod.notifications.teams.microsoft.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:09,106 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: uksouth-prod.notifications.teams.microsoft.com:443, version: HTTP/1.1
+2022-04-01 12:17:09,106 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT uksouth-prod.notifications.teams.microsoft.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:09,106 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: uksouth-prod.notifications.teams.microsoft.com:443<CRLF>'
+2022-04-01 12:17:09,106 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Proxy-Connection: keep-alive<CRLF>'
+2022-04-01 12:17:09,106 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Teams/1.5.00.8070 Chrome/85.0.4183.121 Electron/10.4.7 Safari/537.36<CRLF>'
+2022-04-01 12:17:09,106 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:09,106 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT uksouth-prod.notifications.teams.microsoft.com:443 HTTP/1.1<CRLF>Host: uksouth-prod.notifications.teams.microsoft.com:443<CRLF>Proxy-Connection: keep-alive<CRLF>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Teams/1.5.00.8070 Chrome/85.0.4183.121 Electron/10.4.7 Safari/537.36<CRLF><CRLF>'
+2022-04-01 12:17:09,106 DEBUG o.a.j.p.h.p.Proxy: [62013]  Initial request: CONNECT uksouth-prod.notifications.teams.microsoft.com:443 HTTP/1.1
+Host: uksouth-prod.notifications.teams.microsoft.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Teams/1.5.00.8070 Chrome/85.0.4183.121 Electron/10.4.7 Safari/537.36
+
+
+2022-04-01 12:17:09,106 DEBUG o.a.j.p.h.p.Proxy: [62013]  Method CONNECT => SSL
+2022-04-01 12:17:09,106 DEBUG o.a.j.p.h.p.Proxy: [62013]  Start to negotiate SSL connection, host: uksouth-prod.notifications.teams.microsoft.com
+2022-04-01 12:17:09,106 INFO o.a.j.p.h.p.Proxy: [62013]  KeyStore for SSL loaded OK and put host 'uksouth-prod.notifications.teams.microsoft.com' in map with key (uksouth-prod.notifications.teams.microsoft.com)
+2022-04-01 12:17:09,169 DEBUG o.a.j.p.h.p.Proxy: [62013]  SSL transaction ok with cipher: SSL_NULL_WITH_NULL_NULL
+2022-04-01 12:17:09,169 WARN o.a.j.p.h.p.Proxy: [62013]  Problem with SSL certificate for url  for 'uksouth-prod.notifications.teams.microsoft.com'? Ensure browser is set to accept the JMeter proxy cert: Socket is closed
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.Proxy: [62014]  ====================================================================
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT uksouth-prod.notifications.teams.microsoft.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: uksouth-prod.notifications.teams.microsoft.com:443, version: HTTP/1.1
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT uksouth-prod.notifications.teams.microsoft.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: uksouth-prod.notifications.teams.microsoft.com:443<CRLF>'
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Proxy-Connection: keep-alive<CRLF>'
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Teams/1.5.00.8070 Chrome/85.0.4183.121 Electron/10.4.7 Safari/537.36<CRLF>'
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT uksouth-prod.notifications.teams.microsoft.com:443 HTTP/1.1<CRLF>Host: uksouth-prod.notifications.teams.microsoft.com:443<CRLF>Proxy-Connection: keep-alive<CRLF>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Teams/1.5.00.8070 Chrome/85.0.4183.121 Electron/10.4.7 Safari/537.36<CRLF><CRLF>'
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.Proxy: [62014]  Initial request: CONNECT uksouth-prod.notifications.teams.microsoft.com:443 HTTP/1.1
+Host: uksouth-prod.notifications.teams.microsoft.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Teams/1.5.00.8070 Chrome/85.0.4183.121 Electron/10.4.7 Safari/537.36
+
+
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.Proxy: [62014]  Method CONNECT => SSL
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.Proxy: [62014]  Start to negotiate SSL connection, host: uksouth-prod.notifications.teams.microsoft.com
+2022-04-01 12:17:09,367 DEBUG o.a.j.p.h.p.Proxy: [62014]  Good, already in map, host=uksouth-prod.notifications.teams.microsoft.com using alias uksouth-prod.notifications.teams.microsoft.com
+2022-04-01 12:17:09,407 DEBUG o.a.j.p.h.p.Proxy: [62014]  SSL transaction ok with cipher: SSL_NULL_WITH_NULL_NULL
+2022-04-01 12:17:09,407 WARN o.a.j.p.h.p.Proxy: [62014]  Problem with SSL certificate for url  for 'uksouth-prod.notifications.teams.microsoft.com'? Ensure browser is set to accept the JMeter proxy cert: Socket is closed
+2022-04-01 12:17:09,592 INFO o.a.j.p.h.p.ProxyControl: [62007]  Creating entry outlook.office365.com in C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:17:09,600 ERROR o.a.j.p.h.p.Proxy: [62008]  Problem with keystore
+java.io.IOException:   >> Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+keytool error: java.lang.Exception: Key pair not generated, alias <outlook.office365.com> already exists <<
+Command failed, code: 1
+'keytool -genkeypair -alias outlook.office365.com -dname "cn=outlook.office365.com, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 365 -ext san=dns:outlook.office365.com'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:173) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:290) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:281) ~[jorphan.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.updateKeyStore(ProxyControl.java:1611) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.getSSLSocketFactory(Proxy.java:344) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:449) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:09,600 WARN o.a.j.p.h.p.Proxy: [62008]  Unable to negotiate SSL transaction, no keystore?
+2022-04-01 12:17:09,600 ERROR o.a.j.p.h.p.Proxy: [62008]  Exception when processing sample
+java.io.IOException: Unable to negotiate SSL transaction, no keystore?
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:466) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:09,632 WARN o.a.j.p.h.p.Proxy: [62008]  Exception while writing error
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_321]
+	at java.io.DataOutputStream.writeBytes(Unknown Source) ~[?:1.8.0_321]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:580) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:269) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:09,640 DEBUG o.a.j.p.h.p.Proxy: [62015]  ====================================================================
+2022-04-01 12:17:09,648 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:09,648 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: outlook.office365.com:443, version: HTTP/1.1
+2022-04-01 12:17:09,648 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:09,648 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: outlook.office365.com:443<CRLF>'
+2022-04-01 12:17:09,648 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:09,648 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>Host: outlook.office365.com:443<CRLF><CRLF>'
+2022-04-01 12:17:09,648 DEBUG o.a.j.p.h.p.Proxy: [62015]  Initial request: CONNECT outlook.office365.com:443 HTTP/1.1
+Host: outlook.office365.com:443
+
+
+2022-04-01 12:17:09,648 DEBUG o.a.j.p.h.p.Proxy: [62015]  Method CONNECT => SSL
+2022-04-01 12:17:09,648 DEBUG o.a.j.p.h.p.Proxy: [62015]  Start to negotiate SSL connection, host: outlook.office365.com
+2022-04-01 12:17:10,151 INFO o.a.j.p.h.p.ProxyControl: [62000]  Creating entry pagead2.googlesyndication.com in C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:17:10,151 ERROR o.a.j.p.h.p.Proxy: [62007]  Problem with keystore
+java.io.IOException:   >> Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+keytool error: java.lang.Exception: Key pair not generated, alias <outlook.office365.com> already exists <<
+Command failed, code: 1
+'keytool -genkeypair -alias outlook.office365.com -dname "cn=outlook.office365.com, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 365 -ext san=dns:outlook.office365.com'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:173) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:290) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:281) ~[jorphan.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.updateKeyStore(ProxyControl.java:1611) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.getSSLSocketFactory(Proxy.java:344) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:449) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:10,151 WARN o.a.j.p.h.p.Proxy: [62007]  Unable to negotiate SSL transaction, no keystore?
+2022-04-01 12:17:10,151 ERROR o.a.j.p.h.p.Proxy: [62007]  Exception when processing sample
+java.io.IOException: Unable to negotiate SSL transaction, no keystore?
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:466) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:10,159 WARN o.a.j.p.h.p.Proxy: [62007]  Exception while writing error
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_321]
+	at java.io.DataOutputStream.writeBytes(Unknown Source) ~[?:1.8.0_321]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:580) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:269) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:10,167 DEBUG o.a.j.p.h.p.Proxy: [62016]  ====================================================================
+2022-04-01 12:17:10,167 DEBUG o.a.j.p.h.p.HttpRequestHdr: browser request: CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>
+2022-04-01 12:17:10,167 DEBUG o.a.j.p.h.p.HttpRequestHdr: parsed method: CONNECT, url/host: outlook.office365.com:443, version: HTTP/1.1
+2022-04-01 12:17:10,167 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>'
+2022-04-01 12:17:10,167 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: 'Host: outlook.office365.com:443<CRLF>'
+2022-04-01 12:17:10,167 DEBUG o.a.j.p.h.p.HttpRequestHdr: Client Request Line: '<CRLF>'
+2022-04-01 12:17:10,167 DEBUG o.a.j.p.h.p.HttpRequestHdr: rawPostData in default JRE encoding: , Request: 'CONNECT outlook.office365.com:443 HTTP/1.1<CRLF>Host: outlook.office365.com:443<CRLF><CRLF>'
+2022-04-01 12:17:10,167 DEBUG o.a.j.p.h.p.Proxy: [62016]  Initial request: CONNECT outlook.office365.com:443 HTTP/1.1
+Host: outlook.office365.com:443
+
+
+2022-04-01 12:17:10,167 DEBUG o.a.j.p.h.p.Proxy: [62016]  Method CONNECT => SSL
+2022-04-01 12:17:10,167 DEBUG o.a.j.p.h.p.Proxy: [62016]  Start to negotiate SSL connection, host: outlook.office365.com
+2022-04-01 12:17:13,179 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2022-04-01 12:17:14,457 INFO o.a.j.p.h.p.ProxyControl: [61999]  Creating entry pagead2.googlesyndication.com in C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:17:14,457 ERROR o.a.j.p.h.p.Proxy: [62000]  Problem with keystore
+java.io.IOException: Command failed, code: 1
+Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+keytool error: java.security.cert.CertificateException: No certificate data found
+
+	at org.apache.jorphan.exec.KeyToolUtils.runNativeCommand(KeyToolUtils.java:372) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.keytool(KeyToolUtils.java:439) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:305) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:281) ~[jorphan.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.updateKeyStore(ProxyControl.java:1611) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.getSSLSocketFactory(Proxy.java:344) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:449) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:14,457 WARN o.a.j.p.h.p.Proxy: [62000]  Unable to negotiate SSL transaction, no keystore?
+2022-04-01 12:17:14,457 ERROR o.a.j.p.h.p.Proxy: [62000]  Exception when processing sample
+java.io.IOException: Unable to negotiate SSL transaction, no keystore?
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:466) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:14,473 WARN o.a.j.p.h.p.Proxy: [62000]  Exception while writing error
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_321]
+	at java.io.DataOutputStream.writeBytes(Unknown Source) ~[?:1.8.0_321]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:580) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:269) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:14,852 INFO o.a.j.p.h.p.ProxyControl: [61997]  Creating entry pagead2.googlesyndication.com in C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:17:14,852 ERROR o.a.j.p.h.p.Proxy: [61999]  Problem with keystore
+java.io.IOException:   >> Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+keytool error: java.lang.Exception: Key pair not generated, alias <pagead2.googlesyndication.com> already exists <<
+Command failed, code: 1
+'keytool -genkeypair -alias pagead2.googlesyndication.com -dname "cn=pagead2.googlesyndication.com, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 365 -ext san=dns:pagead2.googlesyndication.com'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:173) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:290) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:281) ~[jorphan.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.updateKeyStore(ProxyControl.java:1611) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.getSSLSocketFactory(Proxy.java:344) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:449) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:14,852 WARN o.a.j.p.h.p.Proxy: [61999]  Unable to negotiate SSL transaction, no keystore?
+2022-04-01 12:17:14,852 ERROR o.a.j.p.h.p.Proxy: [61999]  Exception when processing sample
+java.io.IOException: Unable to negotiate SSL transaction, no keystore?
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:466) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:14,868 WARN o.a.j.p.h.p.Proxy: [61999]  Exception while writing error
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_321]
+	at java.io.DataOutputStream.writeBytes(Unknown Source) ~[?:1.8.0_321]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:580) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:269) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:15,507 INFO o.a.j.p.h.p.ProxyControl: [61993]  Creating entry outlook.office365.com in C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:17:15,507 ERROR o.a.j.p.h.p.Proxy: [61997]  Problem with keystore
+java.io.IOException:   >> Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+keytool error: java.lang.Exception: Key pair not generated, alias <pagead2.googlesyndication.com> already exists <<
+Command failed, code: 1
+'keytool -genkeypair -alias pagead2.googlesyndication.com -dname "cn=pagead2.googlesyndication.com, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 365 -ext san=dns:pagead2.googlesyndication.com'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:173) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:290) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:281) ~[jorphan.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.updateKeyStore(ProxyControl.java:1611) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.getSSLSocketFactory(Proxy.java:344) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:449) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:15,507 WARN o.a.j.p.h.p.Proxy: [61997]  Unable to negotiate SSL transaction, no keystore?
+2022-04-01 12:17:15,507 ERROR o.a.j.p.h.p.Proxy: [61997]  Exception when processing sample
+java.io.IOException: Unable to negotiate SSL transaction, no keystore?
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:466) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:15,507 WARN o.a.j.p.h.p.Proxy: [61997]  Exception while writing error
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_321]
+	at java.io.DataOutputStream.writeBytes(Unknown Source) ~[?:1.8.0_321]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:580) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:269) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:15,984 INFO o.a.j.p.h.p.ProxyControl: [62016]  Creating entry outlook.office365.com in C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:17:15,984 ERROR o.a.j.p.h.p.Proxy: [61993]  Problem with keystore
+java.io.IOException:   >> Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+keytool error: java.lang.Exception: Key pair not generated, alias <outlook.office365.com> already exists <<
+Command failed, code: 1
+'keytool -genkeypair -alias outlook.office365.com -dname "cn=outlook.office365.com, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 365 -ext san=dns:outlook.office365.com'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:173) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:290) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:281) ~[jorphan.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.updateKeyStore(ProxyControl.java:1611) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.getSSLSocketFactory(Proxy.java:344) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:449) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:15,984 WARN o.a.j.p.h.p.Proxy: [61993]  Unable to negotiate SSL transaction, no keystore?
+2022-04-01 12:17:15,984 ERROR o.a.j.p.h.p.Proxy: [61993]  Exception when processing sample
+java.io.IOException: Unable to negotiate SSL transaction, no keystore?
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:466) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:15,984 WARN o.a.j.p.h.p.Proxy: [61993]  Exception while writing error
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_321]
+	at java.io.DataOutputStream.writeBytes(Unknown Source) ~[?:1.8.0_321]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:580) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:269) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:16,270 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Configuring gui with org.apache.jmeter.protocol.http.proxy.ProxyControl@63a5159
+2022-04-01 12:17:16,270 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Reinitializing target combo
+2022-04-01 12:17:16,270 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Selecting item Use Recording Controller for model org.apache.jmeter.protocol.http.proxy.ProxyControl@63a5159 in org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui[HTTP(S) Test Script Recorder,0,0,1124x777,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@1f5d87d4,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-04-01 12:17:16,270 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Reinitialization complete
+2022-04-01 12:17:16,286 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Configuring gui with org.apache.jmeter.protocol.http.proxy.ProxyControl@63a5159
+2022-04-01 12:17:16,286 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Reinitializing target combo
+2022-04-01 12:17:16,286 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Selecting item Use Recording Controller for model org.apache.jmeter.protocol.http.proxy.ProxyControl@63a5159 in org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui[HTTP(S) Test Script Recorder,0,0,1124x777,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.border.EmptyBorder@1f5d87d4,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-04-01 12:17:16,286 DEBUG o.a.j.p.h.p.g.ProxyControlGui: Reinitialization complete
+2022-04-01 12:17:16,559 INFO o.a.j.p.h.p.ProxyControl: [62015]  Creating entry outlook.office365.com in C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:17:16,559 ERROR o.a.j.p.h.p.Proxy: [62016]  Problem with keystore
+java.io.IOException:   >> Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+keytool error: java.lang.Exception: Key pair not generated, alias <outlook.office365.com> already exists <<
+Command failed, code: 1
+'keytool -genkeypair -alias outlook.office365.com -dname "cn=outlook.office365.com, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 365 -ext san=dns:outlook.office365.com'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:173) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:290) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:281) ~[jorphan.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.updateKeyStore(ProxyControl.java:1611) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.getSSLSocketFactory(Proxy.java:344) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:449) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:16,559 WARN o.a.j.p.h.p.Proxy: [62016]  Unable to negotiate SSL transaction, no keystore?
+2022-04-01 12:17:16,559 ERROR o.a.j.p.h.p.Proxy: [62016]  Exception when processing sample
+java.io.IOException: Unable to negotiate SSL transaction, no keystore?
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:466) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:16,559 WARN o.a.j.p.h.p.Proxy: [62016]  Exception while writing error
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_321]
+	at java.io.DataOutputStream.writeBytes(Unknown Source) ~[?:1.8.0_321]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:580) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:269) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:17,015 INFO o.a.j.p.h.p.ProxyControl: [62011]  Creating entry outlook.office365.com in C:\Users\XXX\apache-jmeter-5.4.1\bin\proxyserver.jks
+2022-04-01 12:17:17,015 ERROR o.a.j.p.h.p.Proxy: [62015]  Problem with keystore
+java.io.IOException:   >> Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+keytool error: java.lang.Exception: Key pair not generated, alias <outlook.office365.com> already exists <<
+Command failed, code: 1
+'keytool -genkeypair -alias outlook.office365.com -dname "cn=outlook.office365.com, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 365 -ext san=dns:outlook.office365.com'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:173) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:290) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:281) ~[jorphan.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.updateKeyStore(ProxyControl.java:1611) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.getSSLSocketFactory(Proxy.java:344) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:449) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:17,015 WARN o.a.j.p.h.p.Proxy: [62015]  Unable to negotiate SSL transaction, no keystore?
+2022-04-01 12:17:17,015 ERROR o.a.j.p.h.p.Proxy: [62015]  Exception when processing sample
+java.io.IOException: Unable to negotiate SSL transaction, no keystore?
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:466) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:17,015 WARN o.a.j.p.h.p.Proxy: [62015]  Exception while writing error
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_321]
+	at java.io.DataOutputStream.writeBytes(Unknown Source) ~[?:1.8.0_321]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:580) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:269) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:17,557 ERROR o.a.j.p.h.p.Proxy: [62011]  Problem with keystore
+java.io.IOException:   >> Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+keytool error: java.lang.Exception: Key pair not generated, alias <outlook.office365.com> already exists <<
+Command failed, code: 1
+'keytool -genkeypair -alias outlook.office365.com -dname "cn=outlook.office365.com, o=JMeter Proxy (TEMPORARY TRUST ONLY)" -keyalg RSA -keystore proxyserver.jks -storepass {redacted} -keypass {redacted} -validity 365 -ext san=dns:outlook.office365.com'
+	at org.apache.jorphan.exec.KeyToolUtils.genkeypair(KeyToolUtils.java:173) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateSignedCert(KeyToolUtils.java:290) ~[jorphan.jar:5.4.1]
+	at org.apache.jorphan.exec.KeyToolUtils.generateHostCert(KeyToolUtils.java:281) ~[jorphan.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.updateKeyStore(ProxyControl.java:1611) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.getSSLSocketFactory(Proxy.java:344) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:449) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:17,557 WARN o.a.j.p.h.p.Proxy: [62011]  Unable to negotiate SSL transaction, no keystore?
+2022-04-01 12:17:17,557 ERROR o.a.j.p.h.p.Proxy: [62011]  Exception when processing sample
+java.io.IOException: Unable to negotiate SSL transaction, no keystore?
+	at org.apache.jmeter.protocol.http.proxy.Proxy.startSSL(Proxy.java:466) ~[ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:200) [ApacheJMeter_http.jar:5.4.1]
+2022-04-01 12:17:17,557 WARN o.a.j.p.h.p.Proxy: [62011]  Exception while writing error
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_321]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_321]
+	at java.io.DataOutputStream.writeBytes(Unknown Source) ~[?:1.8.0_321]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:580) [ApacheJMeter_http.jar:5.4.1]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:269) [ApacheJMeter_http.jar:5.4.1]
